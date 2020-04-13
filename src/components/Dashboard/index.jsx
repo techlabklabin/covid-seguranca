@@ -159,13 +159,13 @@ class Dashboard extends Component {
 
 
             let touchpointsText = [].concat(latestDiagnosis.touchpoints.map((i) => {
-                let isKlabinText = ""
-                if (i.isKlabin) {
-                    isKlabinText = "Colaborador Klabin"
+                let isCompanyText = ""
+                if (i.isCompany) {
+                    isCompanyText = "Colaborador <nome-empresa>"
                 } else {
-                    isKlabinText = "Externo"
+                    isCompanyText = "Externo"
                 }
-                return <p>  - {isKlabinText} <b>Nome: </b>{i.name} <b>Telefone: </b>{i.phone} </p>
+                return <p>  - {isCompanyText} <b>Nome: </b>{i.name} <b>Telefone: </b>{i.phone} </p>
             }))
 
             let temperatureText = TEMPERATURE[latestDiagnosis.temperature]
