@@ -4,7 +4,7 @@
 
 Essa aplicação web possibilita a um segurança verificar a situação de um usuário no sistema (Quanto a possível presença ou não de COVID-19), o encaminhando para que as devidas providências sejam tomadas.
 
-Os micro e nano-serviços  podem ser encontrados no [back-end](https://https://github.com/cordeiro2020/covid-back).
+Os micro e nano-serviços  podem ser encontrados no [back-end](https://github.com/cordeiro2020/covid-back).
 
 ## Pré-requisitos :heavy_check_mark:
 
